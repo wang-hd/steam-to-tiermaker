@@ -6,9 +6,3 @@ Pillow>=10.0.0
 
 # GUI dependencies (tkinter is included with Python)
 # No additional GUI packages needed - using built-in tkinter
-
-# For creating standalone executable
-pyinstaller>=6.0.0
-
-# Optional: For better GUI styling
-# ttkthemes>=3.2.2  # Uncomment if you want additional themes
