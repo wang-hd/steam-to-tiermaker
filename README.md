@@ -20,19 +20,15 @@ A standalone GUI application that combines Steam image scraping and TierMaker up
 4. Enter your Steam library URL
 5. Click "Start Process"
 
-### Option 2: Build from Source
+### Option 2: Run from Scripts
 1. Install Python 3.8+ and Chrome browser
 2. Install dependencies:
    ```bash
-   pip install -r requirements_gui.txt
+   pip install -r requirements.txt
    ```
 3. Build executable:
    ```bash
-   python build_exe.py
-   ```
-   Or on Windows:
-   ```bash
-   build.bat
+   python steam_tiermaker_gui.py
    ```
 
 ## How to Use
